@@ -1,0 +1,167 @@
+html, body{
+    margin: 0px;
+    min-height: auto;
+}
+
+.wrapper{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.notSix{
+    min-height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    min-height: 25%;
+    background: #c7daf1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.notTwo{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    width: 25%;
+    background: #ebf1de;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+aside p{
+    width: 80%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.notOne{
+    min-height: 67%;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background: #c7daf1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.notThree{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 34%;
+    background: #fdeada;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+main{
+    min-height: 80%;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+main p{
+    width: 80%;
+    text-align:justify;
+    margin: 15% 0% 15% 15%;
+}
+
+figcaption{
+    min-height: 20%;
+    background: #fdeada;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+figcaption p{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.hederDiv{
+    width: 25%;
+    min-height: 30%;
+    background: white;
+    border: 3.5px solid black;
+    margin: 3% 20% 3% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.hederText{
+    width: 50%;
+    margin-right: 3%;
+    text-align: right;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerDiv{
+    width: 20%;
+    min-height: 30%;
+    background: white;
+    border: 3.5px solid black;
+    margin: 3% 5% 3% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerText{
+    width: 50%;
+    margin-left: 5%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerDiv h2{
+    text-align: right;
+}
+
+.hederDiv h2{
+    text-align: right;
+}
+
+p{
+    margin: 30px 0px 30px 0px;
+}
