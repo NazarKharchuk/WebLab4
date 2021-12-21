@@ -1,0 +1,20 @@
+{
+    "startText" : "Start",
+    "stopText" : "Stop",
+    "closeText" : "Close",
+    "reloadText" : "Reload",
+    "startMesage" : "Start",
+    "closeMesage" : "Close",
+    "stopMesage" : "Stop",
+    "reloadMesage" : "Reload",
+    "borderMesage" : "Border",
+    "outMesage" : "Out",
+    "borderColor" : "orange",
+    "circleColor" : "green",
+    "forBorder" : 10,
+    "forControls" :  50,
+    "diametr" : 15,
+    "radiys" : 7.5,
+    "step" : 10,
+    "img" : "img.png"
+}
