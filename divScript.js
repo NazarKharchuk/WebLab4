@@ -48,7 +48,7 @@ function start(){
 		info.y = anim.offsetHeight/2-settings.diametr/2 + main.offsetTop-5;
 		info.allPash = 1;
 		info.Pash = 0;
-		info.direction = "l";
+		info.direction = "left";
 	}
 	info.isStop = false;
 	info.isReload = false;
@@ -144,7 +144,7 @@ function move() {
 			let date = new Date();
 			storage.setItem(`${storage.length}`, `${settings.outMesage} : ${date.toLocaleTimeString()}`);
 		}
-    }, 0);
+    }, 10);
 }
 
 function play() {
@@ -202,7 +202,7 @@ function play() {
 	startButton.innerHTML = settings.startText
 	buttons.appendChild(startButton)
 
-    let messages = document.createElement("p")
+    let messages = document.createElement("div")
 	messages.id = "messages"
     messages.className = "messages"
 	messages.innerHTML = 'For message'
